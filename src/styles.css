@@ -1,0 +1,227 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/bricolage-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/bricolage-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/bricolage-700.woff2") format("woff2");
+}
+
+
+
+@theme {
+  --font-brand: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --radius: 0.875rem;
+}
+
+:root {
+  --background: #f4f1e9;
+  --foreground: #121313;
+  --card: #fbfaf6;
+  --card-foreground: #121313;
+  --popover: #fbfaf6;
+  --popover-foreground: #121313;
+  --primary: #121313;
+  --primary-foreground: #f8f6ef;
+  --secondary: #f4ff71;
+  --secondary-foreground: #121313;
+  --muted: #ebe7de;
+  --muted-foreground: #666962;
+  --accent: #f4ff71;
+  --accent-foreground: #121313;
+  --destructive: oklch(58% 0.22 27);
+  --border: #1213131f;
+  --input: #12131329;
+  --ring: #121313;
+  --radius: 0.875rem;
+  --promo-banner-height: 0px;
+}
+
+.dark {
+  --background: #121313;
+  --foreground: #f4f1e9;
+  --card: #1b1c1c;
+  --card-foreground: #f4f1e9;
+  --popover: #1b1c1c;
+  --popover-foreground: #f4f1e9;
+  --primary: #f4ff71;
+  --primary-foreground: #121313;
+  --secondary: #2a2c22;
+  --secondary-foreground: #f4f1e9;
+  --muted: #252727;
+  --muted-foreground: #a7aaa4;
+  --accent: #f4ff71;
+  --accent-foreground: #121313;
+  --border: #f4f1e924;
+  --input: #f4f1e92e;
+  --ring: #f4ff71;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-brand);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html[data-hide-promo-banner] [data-promo-banner] {
+  display: none;
+}
+
+html:has([data-promo-banner]) {
+  --promo-banner-height: 2.75rem;
+}
+
+@keyframes hero-logo-loop {
+  to {
+    transform: translate(-50%);
+  }
+}
+@keyframes testimonial-loop {
+  to {
+    transform: translate(-50%);
+  }
+}
+@keyframes agent-logo-swap {
+  0% {
+    opacity: 0;
+    transform: scale(0.72) rotate(-6deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.storefront-hero-wordmark {
+  text-shadow: 0.035em 0.045em #e9a78b, 0.055em 0.07em #1213131f;
+}
+
+.hero-logo-stage {
+  --hero-logo-gap: clamp(0.7rem, 1.4vw, 1.2rem);
+  --hero-logo-size: clamp(4.6rem, 7.2vw, 7rem);
+}
+.hero-logo-marquee {
+  padding-block: 0.35rem;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, #0000, #000 8% 92%, #0000);
+  mask-image: linear-gradient(90deg, #0000, #000 8% 92%, #0000);
+}
+.hero-logo-track {
+  will-change: transform;
+  width: max-content;
+  animation: 52s linear infinite hero-logo-loop;
+  display: flex;
+}
+.hero-logo-track-reverse {
+  animation-duration: 49s;
+  animation-direction: reverse;
+}
+.hero-logo-group {
+  gap: var(--hero-logo-gap);
+  padding-inline-end: var(--hero-logo-gap);
+  display: flex;
+}
+.hero-skill-logo {
+  aspect-ratio: 1;
+  width: var(--hero-logo-size);
+  background: #ebe7de;
+  border-radius: 20%;
+  flex: none;
+  overflow: hidden;
+  transform: translateZ(0);
+  box-shadow: 0 10px 26px #12131314;
+}
+
+.testimonial-row {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, #0000, #000 6% 94%, #0000);
+  mask-image: linear-gradient(90deg, #0000, #000 6% 94%, #0000);
+}
+.testimonial-row:hover .testimonial-track,
+.testimonial-row:focus-within .testimonial-track {
+  animation-play-state: paused;
+}
+.testimonial-track {
+  width: max-content;
+  animation: testimonial-loop var(--testimonial-duration, 120s) linear infinite;
+  will-change: transform;
+  align-items: flex-start;
+  display: flex;
+}
+.testimonial-track-reverse {
+  animation-direction: reverse;
+}
+
+.agent-logo-swap {
+  animation: 0.36s cubic-bezier(0.22, 1, 0.36, 1) both agent-logo-swap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-logo-track {
+    will-change: auto;
+    animation: none;
+    transform: translate(-10%);
+  }
+  .hero-logo-track-reverse {
+    transform: translate(-38%);
+  }
+  .testimonial-row {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  .testimonial-track {
+    will-change: auto;
+    animation: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

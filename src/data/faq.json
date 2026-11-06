@@ -1,0 +1,30 @@
+[
+  {
+    "q": "What is an Agent Skill?",
+    "a": "A Skill is a reusable set of instructions and resources that helps an AI agent complete a specific kind of work."
+  },
+  {
+    "q": "Who makes the Skills on Skillry?",
+    "a": "Our own team. Every Skill is designed, written and tested in-house, from the example on its page to the templates and scripts inside the package, and we keep updating it after release."
+  },
+  {
+    "q": "How do I get started?",
+    "a": "Browse the catalog, choose a Skill and use its install prompt or ZIP download. You can also connect Skillry MCP to search and inspect Skills from your agent. Authorize your account in the browser to install; your agent runs the installed workflow."
+  },
+  {
+    "q": "Will this work with my Agent?",
+    "a": "The catalog works with agents that can read and install Agent Skills. Start with the supported examples on this page, then follow your agent's normal Skill installation flow."
+  },
+  {
+    "q": "Do I need an API key?",
+    "a": "Connecting Skillry MCP or CLI needs no Skillry API key. Approve account access in your browser; credentials are stored in the OS keyring. Some image or video Skills require your own provider key and external fees. Check the Skill's requirements before running it."
+  },
+  {
+    "q": "What kinds of work can Skills help with?",
+    "a": "Skills cover focused work across Slides, Web, Images, and Video. Each Skill page explains the result it helps your agent create before you install it."
+  },
+  {
+    "q": "How do I get Skill updates?",
+    "a": "With MCP, ask your agent to check installed Skills for updates, then approve the selected version before upgrading; the previous directory is preserved as a backup. With the terminal CLI, explicitly reinstall using --force, or download the latest ZIP from the Skill page."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "slug": "introducing-skillry",
+  "title": "Introducing Skillry",
+  "paragraphs": [
+    "Skillry is a curated marketplace of Agent Skills \u2014 practical, reviewed workflows your AI agent can install in one command.",
+    "Your AI agent is only as capable as the instructions it carries. A great Skill \u2014 a packaged, reusable workflow with clear steps, examples, and guardrails \u2014 turns a general-purpose agent into a specialist that ships real work.",
+    "Skillry fixes that. It is a curated marketplace of Agent Skills for tools like Claude Code, Codex, Gemini CLI, and Cursor: every Skill is reviewed, documented with real examples, and installable by your agent in a single step.",
+    "Every Skill on Skillry goes through a review pipeline before it is published. We check that the instructions actually work, that the examples reflect real output, and that the Skill does one job well.",
+    "Skills are built to be installed by your agent, not copy-pasted by you. Point your agent at a Skill's install page, or use the Skillry CLI with secure browser-authorized access, and the Skill lands in your agent's workspace.",
+    "You can browse the entire catalog and install Free Skills with just an account. Premium Skills are covered by one simple plan \u2014 every Premium Skill, ongoing updates, and new releases included, and you can cancel anytime.",
+    "We are just getting started \u2014 the catalog grows every week. If there is a workflow you wish your agent handled better, chances are a Skill for it is already on the way."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "bs-anthropic-report-illustration": {
+    "version": "1.0.3",
+    "blurb": "Use this Skill to create article illustrations.",
+    "description": "Turn articles and research reports into bold editorial illustrations with a vintage print feel. Express the main idea through colour-block collage, single objects and abstract geometric prints.",
+    "about": "Make a varied illustration series for a report or article in three looks: colour-block collage with found imagery, single objects on a flat colour field, and abstract geometric prints. The first preview shows 24 examples together; the second and third show 12 each. Every original is square. Bright screen-print colours lead the series, with muted archival palettes mixed in for contrast.",
+    "youGet": [
+      "Colour-block collage, single-object studies and abstract geometric prints in one consistent series",
+      "Large objects that keep their natural photographic colour and patina",
+      "Square originals ready to crop for articles, reports and social posts"
+    ]
+  }
+}

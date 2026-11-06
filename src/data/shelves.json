@@ -1,0 +1,104 @@
+{
+  "featured": [
+    "bs-anthropic-report-illustration",
+    "bs-launchmotion-grid-social-proof-wall",
+    "bs-audio-report-deck",
+    "bs-linear-agent-style-launch-video",
+    "bs-ascii-glitch-launch-video",
+    "bs-manus2-0-style-launch-video",
+    "bs-notion-style-localize-video",
+    "bs-hyperframes-pixel-promo"
+  ],
+  "free": [
+    "bs-plush-crew-launch-video",
+    "bs-audio-report-deck",
+    "bs-mint-noir-saas-site",
+    "bs-headspace-style-og",
+    "bs-paper-cutout-story-video",
+    "bs-mint-marker-deck",
+    "bs-ember-ebike-store",
+    "bs-runway-style-og"
+  ],
+  "trending": [],
+  "trending-html": [
+    "bs-anthropic-report-style-hero",
+    "bs-dot-avatar-maker",
+    "bs-cobalt-serif-freelancer-site",
+    "bs-cutpaper-collective-site",
+    "bs-mint-noir-saas-site",
+    "bs-slate-admin-console",
+    "bs-cadence-marketing-landing",
+    "bs-ember-ebike-store"
+  ],
+  "trending-presentation": [
+    "bs-audio-report-deck",
+    "bs-mint-marker-deck",
+    "bs-field-notes-deck",
+    "bs-yellow-sketchnote-deck",
+    "bs-brand-story-deck",
+    "bs-sky-glass-deck",
+    "bs-image-narrative-deck",
+    "bs-article-brief-deck"
+  ],
+  "trending-video": [
+    "bs-notion-style-localize-video",
+    "bs-manus2-0-style-launch-video",
+    "bs-hyperframes-pixel-promo",
+    "bs-paper-cutout-story-video",
+    "bs-plush-crew-launch-video",
+    "bs-hyperframes-velocity-sting",
+    "bs-creatormotion-type-title-takeover",
+    "bs-creatormotion-cards-action-checklist"
+  ],
+  "trending-image": [
+    "bs-paperline-content-illustrator",
+    "bs-apple-style-og",
+    "bs-shopify-style-og",
+    "bs-figma-style-og",
+    "bs-duolingo-style-og",
+    "bs-square-style-og",
+    "bs-wise-style-og",
+    "bs-goodnotes-style-og"
+  ],
+  "top-rated": [],
+  "top-rated-html": [
+    "bs-split-frame-portfolio",
+    "bs-finora-banking-landing",
+    "bs-editorial-studio-saas",
+    "bs-basalt-dev-portfolio",
+    "bs-cadence-marketing-landing",
+    "bs-liquid-glass-landing",
+    "bs-orbit-startup-landing",
+    "bs-project-knowledge-graph"
+  ],
+  "top-rated-presentation": [
+    "bs-visual-canvas-deck",
+    "bs-article-brief-deck",
+    "bs-learning-loop-deck",
+    "bs-audio-report-deck",
+    "bs-mint-marker-deck",
+    "bs-field-notes-deck",
+    "bs-yellow-sketchnote-deck",
+    "bs-brand-story-deck"
+  ],
+  "top-rated-video": [
+    "bs-launchmotion-grid-social-proof-wall",
+    "bs-manus2-0-style-launch-video",
+    "bs-hyperframes-agent-chorus-reel",
+    "bs-hyperframes-device-canvas-launch",
+    "bs-hyperframes-format-shift-launch",
+    "bs-hyperframes-halftone-canvas-launch",
+    "bs-hyperframes-frame-token-launch",
+    "bs-hyperframes-technical-drawing-promo"
+  ],
+  "top-rated-image": [
+    "bs-monochrome-studio-portrait",
+    "bs-figma-style-og",
+    "bs-openai-style-og",
+    "bs-stripe-style-og",
+    "bs-goodnotes-style-og",
+    "bs-material-design-style-og",
+    "bs-procreate-style-og",
+    "bs-paperline-content-illustrator"
+  ]
+}

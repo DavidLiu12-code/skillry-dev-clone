@@ -1,0 +1,210 @@
+[
+  {
+    "href": "/",
+    "text": "Skillry"
+  },
+  {
+    "href": "/skills",
+    "text": "Skills"
+  },
+  {
+    "href": "/mcp",
+    "text": "MCP"
+  },
+  {
+    "href": "/learn",
+    "text": "Learn"
+  },
+  {
+    "href": "/pricing",
+    "text": "Pricing"
+  },
+  {
+    "href": "/blog",
+    "text": "Blog"
+  },
+  {
+    "href": "/skills/use-case/web-design",
+    "text": "Web design"
+  },
+  {
+    "href": "/skills/use-case/product-launch",
+    "text": "Product launch"
+  },
+  {
+    "href": "/skills/use-case/brand-identity",
+    "text": "Brand identity"
+  },
+  {
+    "href": "/skills/use-case/client-reporting",
+    "text": "Client reporting"
+  },
+  {
+    "href": "/skills/use-case/social-media",
+    "text": "Social media"
+  },
+  {
+    "href": "/skills/use-case/research-communication",
+    "text": "Research communication"
+  },
+  {
+    "href": "/skills/output/image",
+    "text": "Images"
+  },
+  {
+    "href": "/skills/output/video",
+    "text": "Video"
+  },
+  {
+    "href": "/skills/output/slides",
+    "text": "Presentations"
+  },
+  {
+    "href": "/skills/output/web",
+    "text": "Web &amp; HTML"
+  },
+  {
+    "href": "/skills/task/create-og-image",
+    "text": "OG images"
+  },
+  {
+    "href": "/skills/task/create-article-illustration",
+    "text": "Article illustrations"
+  },
+  {
+    "href": "/skills/task/create-explainer-graphic",
+    "text": "Infographic posters"
+  },
+  {
+    "href": "/skills/task/create-social-card",
+    "text": "Quote graphics"
+  },
+  {
+    "href": "/skills/task/create-character-styled-art",
+    "text": "Mascots"
+  },
+  {
+    "href": "/skills/task/create-explainer-video",
+    "text": "Explainer videos"
+  },
+  {
+    "href": "/skills/task/build-landing-page",
+    "text": "Landing pages"
+  },
+  {
+    "href": "/skills/task/build-portfolio-site",
+    "text": "Portfolio sites"
+  },
+  {
+    "href": "/skills/role/content-creator",
+    "text": "All creator jobs"
+  },
+  {
+    "href": "/learn/reference/skillry-mcp",
+    "text": "MCP documentation"
+  },
+  {
+    "href": "/learn/can-claude-generate-images",
+    "text": "Can Claude generate images?"
+  },
+  {
+    "href": "/learn/frontend-design-skills",
+    "text": "Frontend design Skills"
+  },
+  {
+    "href": "/learn/claude-powerpoint",
+    "text": "Claude PowerPoint"
+  },
+  {
+    "href": "/learn/gamma-alternative",
+    "text": "Gamma alternative"
+  },
+  {
+    "href": "/learn/remotion-vs-hyperframes",
+    "text": "Remotion vs HyperFrames"
+  },
+  {
+    "href": "/learn/claude-motion",
+    "text": "Claude Motion"
+  },
+  {
+    "href": "/learn/claude-motion-alternatives",
+    "text": "Claude Motion alternatives"
+  },
+  {
+    "href": "/skills/agent/claude-code",
+    "text": "Claude Code Skills"
+  },
+  {
+    "href": "/skills/agent/codex",
+    "text": "Codex Skills"
+  },
+  {
+    "href": "/skills/agent/cursor",
+    "text": "Cursor Skills"
+  },
+  {
+    "href": "/skills/agent/github-copilot",
+    "text": "GitHub Copilot Skills"
+  },
+  {
+    "href": "/skills/agent/gemini-cli",
+    "text": "Gemini CLI Skills"
+  },
+  {
+    "href": "/skills/agent/opencode",
+    "text": "OpenCode Skills"
+  },
+  {
+    "href": "/skills/agent/antigravity",
+    "text": "Antigravity Skills"
+  },
+  {
+    "href": "/skills/agent/openclaw",
+    "text": "OpenClaw Skills"
+  },
+  {
+    "href": "/skills/agent/kimi-code",
+    "text": "Kimi Code Skills"
+  },
+  {
+    "href": "/skills/agent/trae",
+    "text": "Trae Skills"
+  },
+  {
+    "href": "/skills/agent",
+    "text": "All agents"
+  },
+  {
+    "href": "/dot-avatar-maker",
+    "text": "Dot Avatar Maker"
+  },
+  {
+    "href": "/iphone-duo-mockup",
+    "text": "iPhone Duo Mockup"
+  },
+  {
+    "href": "/affiliate",
+    "text": "Affiliate program"
+  },
+  {
+    "href": "/privacy",
+    "text": "Privacy Policy"
+  },
+  {
+    "href": "/terms",
+    "text": "Terms of Service"
+  },
+  {
+    "href": "/cookie",
+    "text": "Cookie Policy"
+  },
+  {
+    "href": "/third-party-notices",
+    "text": "Third-Party Notices"
+  },
+  {
+    "href": "mailto:support@skillry.dev",
+    "text": "Support"
+  }
+]
